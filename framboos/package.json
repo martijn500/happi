@@ -1,0 +1,32 @@
+{
+  "name": "framboos",
+  "version": "1.0.0",
+  "description": "Vrolijke framboos raspberry pi node server",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martijn500/happi.git"
+  },
+  "keywords": [
+    "vrolijke",
+    "framboos",
+    "raspberry",
+    "pi",
+    "node",
+    "server"
+  ],
+  "author": "Martijn van der Wijst",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martijn500/happi/issues"
+  },
+  "homepage": "https://github.com/martijn500/happi#readme"
+}
