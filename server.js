@@ -1,8 +1,8 @@
 const request = require('request');
 const _ = require('lodash');
 
-const startUrl = 'http://192.168.3.118:8080/unlocktest/7/';
-let doornumber = 7;
+const startUrl = 'http://192.168.3.118:8080/unlock/';
+let doornumber = 1;
 let startAnswer;
 let finalAnswer;
 
