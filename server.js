@@ -1,13 +1,16 @@
 'use strict';
 const express = require('express');
-const request = require('request');
+const bodyParser = require('body-parser');
 
 const app = express();
-const url ='https://requestb.in/uinu00ui';
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
-request(url, function (error, response, body) {
-  if (!error) {
-    console.log(body);
+app.post('/test', function (req, res) {
+  if (req.body.answer === '100') {
+    res.json({ result: 'correct' });
+  } else {
+    res.json({ result: 'false' });
   }
 });
 
